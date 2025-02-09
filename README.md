@@ -1,30 +1,37 @@
 # Wi-Fi Password Recovery & Backup Tool (HID-based)
+
 ## Description
 
-#### This tool gets all the saved passwords and saves them to your pastebin.
+#### Effortlessly recover and backup all your saved Wi-Fi passwords with this HID-based tool that saves them directly to your Pastebin.
 
-### ONLY FOR ETHICAL USE!
+### **ONLY FOR ETHICAL USE!**
 
-## Follow these steps to make it work!
+## How to Use
 
-0) Edit the code according to your need.
+Follow these simple steps to get started:
 
-1) Replace {PASTEBIN_KEY} and {PASTEBIN_KEY} in code.txt (refer pastebin docs).
-
-2) Upload code.txt on pastebin and get your pastebin link.
-
-3) Replace {PASTEBIN_CODE_LINK} in keyboardTest.ino with your code link.
-
-4) Upload in a board which supports HID and this code.
-
-5) (Getting passwords) just plug in and wait 5 seconds.
+1. **Edit the Code:** Customize the code as needed for your specific requirements.
+2. **Pastebin Configuration:** Replace `{PASTEBIN_KEY}` in `code.txt` (refer to Pastebin documentation).
+3. **Upload to Pastebin:** Upload `code.txt` on Pastebin and obtain your Pastebin link.
+4. **Update Code Link:** Replace `{PASTEBIN_CODE_LINK}` in `keyboardTest.ino` with your Pastebin link.
+5. **Upload to Board:** Flash the code to a board that supports HID.
+6. **Retrieve Passwords:** Plug in the board and wait for 5 seconds to retrieve the passwords.
 
 ## Legal & Ethical Use
-- This tool is meant for educational and personal recovery purposes only.
-- Do not use it on unauthorized systems. Unauthorized access to Wi-Fi credentials that do not belong to you is illegal and against ethical hacking principles.
-- By using this tool, you agree to follow ethical cybersecurity guidelines and obtain proper permissions before testing any system.
+
+- This tool is intended solely for educational and personal recovery purposes.
+- Unauthorized use on systems that do not belong to you is illegal and against ethical hacking principles.
+- By using this tool, you agree to adhere to ethical cybersecurity guidelines and obtain proper permissions before testing any system.
 
 ## Use Cases
-- Forgot your Wi-Fi password? Easily retrieve it from your own system.
-- System Administrators can use this to recover credentials from managed networks.
-- Ethical Hackers & Security Researchers can use this for authorized penetration testing.
+
+- **Forgotten Wi-Fi Passwords:** Easily retrieve forgotten Wi-Fi passwords from your own system.
+- **System Administrators:** Recover credentials from managed networks.
+- **Ethical Hackers & Security Researchers:** Perform authorized penetration testing.
+
+## Disclaimer
+
+**IMPORTANT:** Unauthorized access to Wi-Fi networks is illegal. Use this tool responsibly and ethically.
+
+---
+By using this tool, you agree to the terms and conditions outlined above.
